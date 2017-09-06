@@ -20,6 +20,7 @@ public class BerlinClockFixture {
     public void berlinClockAcceptanceTests() throws Exception {
         aBehaviouralTestRunner()
                 .usingStepsFrom(this)
+                //.withStory("berlin-clock-personal.story")
                 .withStory("berlin-clock.story")
                 .run();
     }
